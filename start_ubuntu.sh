@@ -16,6 +16,7 @@ mkdir -p $UBUNTUPATH/dev/shm
 busybox mount -t tmpfs -o size=256M tmpfs $UBUNTUPATH/dev/shm
 
 # Mount sdcard
+mkdir -p $UBUNTUPATH/sdcard
 busybox mount --bind /sdcard $UBUNTUPATH/sdcard
 
 # chroot into Ubuntu

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # The path of Ubuntu rootfs
-UBUNTUPATH="/data/data/files/home/ubuntu"
+UBUNTUPATH="/data/data/com.termux/files/home/ubuntu"
 
 # Fix setuid issue
 busybox mount -o remount,dev,suid /data
